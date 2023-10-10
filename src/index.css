@@ -1,0 +1,27 @@
+/* .root {
+  padding: 0 45px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/fondo.png);
+  box-sizing: border-box;
+}
+
+.contenedor-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mi-img {
+  transition: transform 0.3s;
+  opacity: 0.3s;
+}
+
+.mi-img:hover {
+  transform: scale(1.5);
+  opacity: 0.8;
+}

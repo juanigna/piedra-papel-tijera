@@ -1,0 +1,17 @@
+{
+  "name": "desafio-papel-piedra-tijera",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "parcel": "^2.9.3"
+  },
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d ./dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
